@@ -1,0 +1,48 @@
+/* Google Fonts */
+
+@font-face {
+    font-family: KaushanScript;
+    src: url(Goggle-Font/Kaushan/KaushanScript-Regular.ttf);
+}
+@font-face {
+    font-family: Poppins-Bold;
+    src: url(Goggle-Font/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: Poppins-Medium;
+    src: url(Goggle-Font/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: Poppins-Light;
+    src: url(Goggle-Font/Poppins/Poppins-Light.ttf);
+}
+
+/* Random Fonts */
+@font-face {
+    font-family: Bastian-Sidney;
+    src: url(All-Font/Bastian\ Sidney.ttf);
+}
+@font-face {
+    font-family: Kenyan-Coffee;
+    src: url(All-Font/kenyan\ coffee\ rg.ttf);
+}
+@font-face {
+    font-family: Lakers;
+    src: url(All-Font/Lakers\ Regular.otf);
+}
+@font-face {
+    font-family: Quick-Silver;
+    src: url(All-Font/Quick\ Silver\ Demo.otf);
+}
+@font-face {
+    font-family: Blow-Brush;
+    src: url(All-Font/blowbrush.otf);
+}
+@font-face {
+    font-family: Nexa-Bold;
+    src: url(All-Font/Nexa\ Bold.otf);
+}
+@font-face {
+    font-family: Cinderela;
+    src: url(All-Font/CinderelaPersonalUse.ttf);
+}

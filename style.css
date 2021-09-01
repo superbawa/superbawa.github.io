@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    font-family: Poppins-Bold;
+}
+
+body{
+    background-color: rgb(204, 204, 204);
+}
+
+h1, p{
+    color: rgb(206, 204, 204);
+    margin: 20px;
+    font-size: 50px;
+    text-shadow: 4px 4px 4px rgb(151, 150, 150), -4px -4px 4px rgb(225, 225, 225);
+}
+.computer-area{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    box-shadow: inset 8px 8px 8px rgb(151, 150, 150), inset -8px -8px 8px rgb(225, 225, 225);
+    margin: auto;
+    border-radius: 20px;
+}
+.info p{
+    margin: 20px auto 30px auto;
+    padding: 5px;
+    height: 60px;
+    font-size: 50px;
+}
+.player-area ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 80%;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: inset 8px 8px 8px rgb(151, 150, 150), inset -8px -8px 8px rgb(225, 225, 225);
+    margin-bottom: 20px;
+}
+ul li, .comp-choice{
+    display: inline-block;
+    justify-content: space-between;
+    border-radius: 50%;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    box-shadow: 8px 8px 8px rgb(151, 150, 150), -8px -8px 8px rgb(225, 225, 225);
+    transition: .5s;
+}
+ul li img, .computer-area img{
+    width: 80px;
+    margin: 10px;
+    filter: contrast(10%);
+    transition: 0.5s;
+}
+img:hover{
+    filter: contrast(100%);
+    transform: scale(1.1);
+}
+ul li:active{
+    transform: scale(.95);
+    box-shadow: 5px 5px 8px rgb(151, 150, 150), -5px -5px 8px rgb(225, 225, 225);
+}
+
+@media (max-width: 536px){
+    .player-area ul{
+        height: 120px;
+        width: 70%;
+    }
+    ul li{
+        height: 80px;
+        width: 80px;
+    }
+    ul li img{
+        width: 60px;
+    }
+}
+@media (max-width: 428px){
+    .player-area ul{
+        height: 230px;
+    }
+    ul li{
+        margin: 10px;
+    }
+    p, h1{
+        font-size: 30px;
+    }
+}
+
